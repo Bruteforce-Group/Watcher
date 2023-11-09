@@ -24,7 +24,7 @@
     "bootstrap": "^4.6.0",
     "chart.js": "^2.9.4",
     "css-loader": "^6.5.1",
-    "jquery": "^3.6.0",
+    "jquery": "^3.7.1",
     "moment": "^2.29.4",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
