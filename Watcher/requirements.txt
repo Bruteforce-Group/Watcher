@@ -21,3 +21,4 @@ django-auth-ldap==4.1.0
 dnstwist==20221213
 django-import-export==3.0.2
 certstream==1.12
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
