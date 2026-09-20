@@ -1226,7 +1226,7 @@ Then, follow the steps below:
 **Create & Configure Watcher database:**
   ```sql
     sudo mysql 
-    CREATE USER 'watcher'@'localhost' IDENTIFIED BY 'Ee5kZm4fWWAmE9hs!';
+    CREATE USER 'watcher'@'localhost' IDENTIFIED BY 'CHANGE_ME';
     GRANT ALL PRIVILEGES ON *.* TO 'watcher'@'localhost' WITH GRANT OPTION;
     CREATE DATABASE db_watcher;
     use db_watcher;
@@ -1250,7 +1250,7 @@ In `settings.py` change `HOST` variable to `localhost`:
         'CONN_MAX_AGE': 3600,
         'NAME': 'db_watcher',
         'USER': 'watcher',
-        'PASSWORD': 'Ee5kZm4fWWAmE9hs!',
+        'PASSWORD': 'CHANGE_ME',
         'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {
